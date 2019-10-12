@@ -1,1 +1,8 @@
 Lab experiments on lan connection on tcp and udp
+ Simulate a 6 node ethernet LAN network. Change error rate and Data rate, compare the throughput. Make node-0 as TCP transmitter, node-1 as UDP transmitter and node-4 receiver & node-5 as NULL
+
+    Use ring topology: Connect each node to next node; node-5 to node-0
+    Use bus topology for the tnework shown below
+    Use set lan [$ns newLan "$n(3) $n(4) $n(5)" 2Mb 40ms LL Queue/DropTail MAC/802_3 Channel] for bus connection
+
+NOTE: Try for multiple cases of different data and error rates 
