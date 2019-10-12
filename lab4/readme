@@ -6,3 +6,6 @@ Lab experiments on lan connection on tcp and udp
     Use set lan [$ns newLan "$n(3) $n(4) $n(5)" 2Mb 40ms LL Queue/DropTail MAC/802_3 Channel] for bus connection
 
 NOTE: Try for multiple cases of different data and error rates 
+
+use command to change error rate :
+$err set rate 0.1 $n(3) $n(4)
