@@ -1,0 +1,3 @@
+NetSim is a network simulation tool that allows you to create network scenarios, model traffic, design protocols and analyze network performance. Users can study the behavior of a network by test combinations of network parameters. The various network technologies covered in NetSim include: 
+ Internetworks - Ethernet, WLAN, IP, TCP  Legacy Networks - Aloha, Slotted Aloha  Cellular Networks - GSM, CDMA  Mobile Adhoc Networks - DSR, AODV, OLSR, ZRP  Wireless Sensor Networks - 802.15.4  Internet of Things - 6LoWPAN gateway, 802.15.4 MAC / PHY, RPL  Cognitive Radio Networks - 802.22  Long-Term Evolution Networks - LTE, LTE Adv.  Software Defined Networking  Advanced Routing and Switching - VLAN, IGMP, PIM, L3 Switch, ACL and NAT  
+ 
